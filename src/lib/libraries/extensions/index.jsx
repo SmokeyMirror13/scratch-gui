@@ -46,6 +46,12 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import STEMpediaMathIconURL from './pictobloxmath/STEMpedia.png';
+// import STEMpediaMathInsetIconURL from './PicToBloxMath/STEMpedia.svg';
+
+import STEMpediaStringIconURL from './pictobloxstring/STEMpedia.png';
+// import STEMpediaStringInsetIconURL from './PicToBloxString/STEMpedia.svg';
+
 export default [
     {
         name: (
@@ -317,5 +323,23 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: 'PicsToBloxMath',
+        extensionId: 'pictobloxmath',
+        iconURL: STEMpediaMathIconURL,
+        insetIconURL: wedo2InsetIconURL,
+        description: 'Description for the "PicsToBlox" math extension',
+        featured: true,
+        disabled: false
+    },
+    {
+        name: 'PicToBloxString',
+        extensionId: 'pictobloxstring',
+        iconURL: STEMpediaStringIconURL,
+        insetIconURL: wedo2InsetIconURL,
+        description: 'Description for the "PicsToBlox" string extension',
+        featured: true,
+        disabled: false
     }
 ];
